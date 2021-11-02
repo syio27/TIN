@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,500,600,700&display=swap');
+
+* {
+ 	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.container {
+	max-width: 700px;
+	width: 100%;
+	background: #fff;
+	padding: 25px 30px;
+	border-radius: 5px;
+}
+
+.container .title {
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.container form .user-details {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box {
+	margin-bottom: 15px;
+	width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box input {
+	height: 45px;
+	width: 100%;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	padding-left: 15px;
+	font-size: 16px;
+}
+
+form .gender-details .gender-title {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+form .gender-details .category {
+	display: flex;
+	width: 50%;
+	margin: 14px 0;
+	justify-content: space-between;
+}
+
+form .country-details {
+	height: 45px;
+	margin: 25px 0;
+}
+
+form .country-details .country-title {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+form .country-details .category {
+	margin: 15px 0 15px 0;
+}
+
+form .country-details input {
+	height: 100%;
+	width: 100%;
+}
+
+form .checkbox .category{
+	margin-top: 15px;
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+
+form .checkbox .checkbox-title {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+
+form .button {
+	height: 45px;
+	margin: 35px 0;
+	margin-top: 70px;
+}
+
+form .button input{
+	height: 100%;
+	width: 100%;
+	color: #fff;
+	background: linear-gradient(135deg, #71b7e6, #9b59b6);
+	border: none;
+	border-radius: 5px;
+}
+
+form .textarea-details label {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+form .textarea-details{
+	height: 45px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+form .textarea-details textarea{
+	width: 100%;
+	padding: 6px 6px;
+	resize: none;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Task 2 Assignment A</title>
+<link rel="stylesheet" href="Task2_B.css">
+</head>
+<body>
+
+<div class="container">
+	<div class="title">Registration</div>
+	<form action="#">
+		<div class="user-details">
+			<div class="input-box">
+				<span class="details">Login</span>
+				<input type="text" placeholder="Enter your login" required>
+			</div>
+			<div class="input-box">
+				<span class="details">Email</span>
+				<input type="text" placeholder="Enter you email account" required>
+			</div>
+			<div class="input-box">
+				<span class="details">Password</span>
+				<input type="text" placeholder="Enter a new password" required>
+			</div>
+			<div class="input-box">
+				<span class="details">Confirm Password</span>
+				<input type="text" placeholder="Enter a new password once more" required>
+			</div>
+		</div>
+		<div class="gender-details">
+			<span class="gender-title">Gender</span>
+			<div class="category">
+				<input type="radio" id="male" name="gender" value="male">
+				<label for="male">Male</label>
+				<input type="radio" id="female" name="gender" value="female">
+				<label for="female">Female</label>
+			</div>
+		</div>
+		<div class="country-details">
+			<span class="country-title">Choose country</span>
+			<div class="category">
+				<input list="countries" name="country">
+			    <datalist id="countries">
+				    <option value="Mexico">
+				    <option value="USA">
+				    <option value="United Kingdom">
+				    <option value="Kazakhstan">
+				    <option value="Poland">
+			    </datalist>
+			</div>
+		</div>
+		<div class="checkbox">
+			<span class="checkbox-title">Do you agree with our terms?</span>
+			<div class="category">
+				<input type="checkbox" id="yes" name="yes" value="Yes">
+				<label for="yes">Yes, i agree</label>
+				<input type="checkbox" id="no" name="no" value="no">
+				<label for="yes">No, i dont agree</label>
+			</div>
+		</div>
+
+		<div class="textarea-details">
+			<label for="definition">Definition</label><br>
+			<textarea id="definition" name="definition" rows="4" cols="50" placeholder="Enter any definition about yourself..."></textarea>
+		</div>
+
+		<div class="button">
+			<input type="submit" value="Registered">
+		</div>
+	</form>
+</div>
+
+</body>
+</html>
