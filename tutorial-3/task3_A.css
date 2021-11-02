@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,500,600,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.wrapper > article, section{
+    padding: 2em;
+}
+
+.wrapper > article div{
+    padding: 1em;
+}
+
+header .header-img{
+    width: 320px;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    padding: 5px;
+    transform: rotate(5deg);
+    filter: drop-shadow(30px 10px 4px #ffe6a1);
+}
+
+header{
+    display: grid;
+    justify-content: center;
+}
+
+header .header-h1{
+    margin: auto;
+}
+
+
+/*/////////////////////////////*/
+
+main .galery-wrapper img{
+    width: 320px;
+}
+
+.article-wrapper div .article-img{
+    width: 150px;
+}
+
+.second-article-wrapper div .article-img{
+    width: 150px;
+}
+
+footer{
+    display: grid;
+    justify-content: center;
+}
+
+.quote {
+    margin: 5px;
+}
